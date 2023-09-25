@@ -1,0 +1,9 @@
+.caixa_width{
+    /* espessura, tipo e a cor =>*/
+    border-width:  2px;
+    border-style: solid;
+    border-color: black;
+    
+    /* shorthand => varios valores na mesma propriedade */
+    border: 2px solid black;
+}   
