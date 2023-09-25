@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+}
+
+
+
+div {
+    border: 4px dotted blue;
+    width: fit-content;
+    font-size: 24px;
+
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px; */
+
+    /* shorthand */
+    /* 1º valor = mesmo valoe pra todos os lados */
+    padding: 20px;
+
+    /* 2º valores = primeiro top´e bottom / segundo right e left */
+    padding: 30px 50px;
+
+    /* 3º VALORE3S = 1º top / 2º right e left / 3º bottom */
+    padding: 20px 50px 5px;
+
+    /* 4 volores = 1º top / 2º right /3º bottom / 4º left */
+    padding: 30px 50px 70px 90px;
+
+    /* propriedades extras */
+    padding-inline: 40px; /* padding na horizontal*/
+    padding-block: 20px; /* padding na vertical*/
+}
+
+h1 {
+    border: 1px solid royalblue;
+    margin-bottom: 20px;
+
+}
+
+.algum {
+    margin-bottom: 100px;
+}
+
+
+.ultimo {
+    margin-top: 50px;
+}
+
+
+.outro {
+    margin-inline: auto;
+    
+
+}
